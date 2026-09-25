@@ -1,5 +1,6 @@
 import { Inter, Parkinsans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/shared/Header";
 
 const parkinSans = Parkinsans({
   variable: "--font-parkin",
@@ -22,7 +23,9 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${parkinSans.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Header/>
+        {children}</body>
     </html>
   );
 }
