@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { NavMenu } from './NavMenu'
-import { LockIcon } from 'lucide-react'
 
 const Header = () => {
   return (

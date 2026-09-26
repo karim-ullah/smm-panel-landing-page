@@ -5,11 +5,11 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-[linear-gradient(45deg,#FF6B0092,#FFF0D3,#F2E4E4,#FFE5C0,#FFF8EC)] pt-32">
+    <section className="w-full bg-[linear-gradient(45deg,#FF6B0092,#FFF0D3,#F2E4E4,#FFE5C0,#FFF8EC)] pt-32 pb-40">
       <div className="container flex justify-between items-center gap-24">
         {/* Left Side */}
         <div className="w-1/2">
-          <h3>Excellent 4.8 out of 5</h3>
+          <h5>Excellent 4.8 out of 5</h5>
           <h1>
             <span className="text-primary">Best SMM Panel</span> in Bangladesh - <span className="text-primary mb-5">Fast ,Safe</span> & Growth in Social Media.
           </h1>
