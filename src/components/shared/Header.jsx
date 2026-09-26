@@ -5,12 +5,12 @@ import { LockIcon } from 'lucide-react'
 
 const Header = () => {
   return (
-    <section className='container'>
-        <div className='flex justify-between items-center py-4 px-6'>
+    <section className='container mb-[-120px] z-10'>
+        <div className='flex justify-between items-center py-4'>
 
         {/* Logo Area */}
         <div>
-            <h1 className='font-parkin font-bold text-2xl'>LOGO</h1>
+            <span className='font-parkin font-bold text-2xl'>LOGO</span>
         </div>
         {/* Menu Area */}
         <div>

@@ -1,11 +1,11 @@
+import Hero from "@/components/home/Hero";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center">
-      <h1 className="">Hello Developers</h1>
-      <Button>Submit</Button>
+    <div>
+      <Hero/>
     </div>
   );
 }

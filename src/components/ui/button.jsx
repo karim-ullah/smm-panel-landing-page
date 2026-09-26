@@ -7,7 +7,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-linear-to-r from-[#FF9243] via-[#DD6017]  to-[#983200] rounded-[12px] text-secondary hover:bg-primary/80",
+        default: "bg-linear-to-r from-[#FF9243] via-[#DD6017]  to-[#983200] rounded-[8px] text-secondary hover:bg-primary/80",
         outline:
           "bg-background text-primary border-1 border-primary rounded-[8px] hover:bg-muted hover:text-foreground",
         secondary:
