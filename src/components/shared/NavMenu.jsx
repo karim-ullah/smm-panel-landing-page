@@ -1,21 +1,10 @@
 "use client"
 
-import * as React from "react"
-import Link from "next/link"
-import {
-  CircleAlertIcon,
-  CircleCheckIcon,
-  CircleDashedIcon,
-} from "lucide-react"
-
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
 const links = [
@@ -48,8 +37,8 @@ export const NavMenu = () => {
   <NavigationMenuList>
     {links.map((link) => (
       <NavigationMenuItem key={link.href}>
-        <NavigationMenuLink asChild>
-          <Link href={link.href}>{link.title}</Link>
+        <NavigationMenuLink href={link.href}>
+          {link.title}
         </NavigationMenuLink>
       </NavigationMenuItem>
     ))}
