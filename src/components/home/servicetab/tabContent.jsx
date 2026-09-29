@@ -3,7 +3,7 @@ import React from 'react'
 
 const tabContent = ({src, title, text, list}) => {
   return (
-    <div className='grid grid-cols-2 p-7 my-9 rounded-[20px] border border-border items-center'>
+    <div className='grid grid-cols-2 gap-6 p-7 my-9 rounded-[20px] border border-border items-center'>
         {/* Left - img */}
         <div>
             <Image src={src} width={570} height={496} alt='nothing'/>
