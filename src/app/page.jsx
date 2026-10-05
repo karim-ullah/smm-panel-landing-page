@@ -2,6 +2,8 @@ import Hero from "@/components/home/Hero";
 import Stats from "@/components/home/stats";
 import Services from '@/components/home/services'
 import WorkingProcess from "@/components/home/workingProcess";
+import PaymentMethod from "@/components/home/paymentMethod";
+import Growth from "@/components/home/growth";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Stats/>
       <Services/>
       <WorkingProcess/>
+      <PaymentMethod/>
+      <Growth/>
     </div>
   );
 }
