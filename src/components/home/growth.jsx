@@ -74,7 +74,7 @@ const growthPeriods = [
 function TimelineStep({ number, title, description, isLast }) {
   return (
     <li className="relative flex min-h-28 gap-3 rounded-xl bg-card px-3 py-4 sm:px-4">
-      <div className="relative z-10 shrink-0">
+      <div className="relative z-6 shrink-0">
         <span className="flex size-8 items-center justify-center rounded-lg border border-[#ffd7ba] bg-background text-[11px] font-semibold text-primary">
           {String(number).padStart(2, "0")}
         </span>

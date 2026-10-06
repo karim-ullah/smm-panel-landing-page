@@ -1,6 +1,7 @@
 import { Inter, Parkinsans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/shared/Header";
+import FloatingChatbot from "@/components/Chatbot/FloatingChatbot";
 
 const parkinSans = Parkinsans({
   variable: "--font-parkin",
@@ -25,7 +26,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Header/>
-        {children}</body>
+        {children}
+        <FloatingChatbot/>
+        </body>
     </html>
   );
 }

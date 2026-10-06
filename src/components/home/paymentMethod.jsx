@@ -20,7 +20,7 @@ const paymentMethod = () => {
         </div>
         {/* Image bottom */}
         <div className="w-full max-w-9/12 mx-auto mt-12">
-            <Image src={ContentImg}  objectFit="cover"/>
+            <Image src={ContentImg}  objectFit="cover" alt="content Image"/>
         </div>
       </div>
     </section>

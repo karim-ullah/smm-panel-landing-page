@@ -50,6 +50,7 @@ const workingProcess = () => {
         <div className="max-w-4xl mx-auto grid grid-cols-2 gap-6 mt-16">
           {steps.map((step, index) => (
             <ProcessCard
+            key={index}
               number={step.number}
               title={step.title}
               description={step.description}
