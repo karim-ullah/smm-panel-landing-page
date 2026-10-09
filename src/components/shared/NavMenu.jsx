@@ -7,7 +7,7 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu"
 
-const links = [
+export const navigationLinks = [
   {
     title: "Home",
     href: "/"
@@ -35,7 +35,7 @@ export const NavMenu = () => {
   return (
     <NavigationMenu>
   <NavigationMenuList>
-    {links.map((link) => (
+    {navigationLinks.map((link) => (
       <NavigationMenuItem key={link.href}>
         <NavigationMenuLink href={link.href}>
           {link.title}
