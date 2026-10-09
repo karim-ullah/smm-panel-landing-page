@@ -44,7 +44,7 @@ export const MobileMenu = () => {
       </Button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 right-0 z-20 rounded-b-lg border-b border-border bg-background shadow-md">
+        <div className="absolute top-full left-0 right-0 z-20 rounded-b-lg border-b border-border bg-background shadow-md p-5">
           <nav className="flex flex-col gap-1 py-4">
             {navigationLinks.map((link) => (
               <Link
