@@ -30,11 +30,9 @@ const Header = () => {
 
       {/* Tablet & Mobile */}
       <div className='lg:hidden relative flex items-center justify-between py-4'>
-        {/* Hamburger Menu */}
-        <MobileMenu />
-
-        {/* Center Aligned Logo */}
-        <div className='absolute left-1/2 -translate-x-1/2'>
+        {/* Hamburger Menu + Logo */}
+        <div className='flex items-center gap-2'>
+          <MobileMenu />
           <Logo />
         </div>
 
